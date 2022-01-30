@@ -23,11 +23,11 @@ class Pedido {
   cargarItems(titulo, autor, direccion) {
     let elementoNuevo = document.createElement("li");
     elementoNuevo.textContent =
-      "=> El libro titulado " +
+      "=> The book entitled " +
       titulo +
-      ", del autor  " +
+      ", by the author  " +
       autor +
-      " será llevado a  la dirección " +
+      " will be taken to the adress " +
       direccion;
 
     ul.appendChild(elementoNuevo);
