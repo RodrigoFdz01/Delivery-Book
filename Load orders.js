@@ -38,6 +38,7 @@ class Pedido {
         alert("Ingresa maximo 5 pedidos");
       }
     }
+    
 */
     botonRefreash.addEventListener("click", function () {
       elementoNuevo.remove();
